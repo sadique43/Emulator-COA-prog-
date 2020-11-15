@@ -1,0 +1,13 @@
+mov ax,0000h
+mov ds,ax
+mov bx,0004h
+mov si,0010h
+mov ax,[bx+si]
+mov cx,[bx+si+0002h]
+add ax,cx
+mov [bx+si+0004h],ax
+hlt
+
+
+
+; [SOURCE]: C:\Users\Sadique\Desktop\coa lab\directaddress.asm

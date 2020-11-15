@@ -1,0 +1,12 @@
+mov ax,0000h
+mov ds,ax
+mov ax,[0005h]
+mov bx,05h
+mul bx
+mov [0006h],ax
+mov [0008h],dx
+hlt
+
+
+
+; [SOURCE]: C:\Users\Sadique\Desktop\mycode.asm

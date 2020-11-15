@@ -1,0 +1,17 @@
+
+mov ax,0000h
+mov ds,ax
+mov ax,[0004h]
+mov si,ax
+shl ax,2
+mov [0006h],ax
+mov ax,si
+shr ax,2
+mov [0008h],ax
+hlt
+
+
+
+
+
+; [SOURCE]: C:\Users\Sadique\Desktop\mulwithshl.asm

@@ -1,0 +1,15 @@
+mov ax,0000h
+mov ds,ax
+mov ax,[0004h]
+mov bx,[0006h]
+
+add ax,bx
+
+DAA
+mov [0008h],ax
+
+hlt
+
+
+
+; [SOURCE]: C:\Users\Sadique\Desktop\coa lab\daabcdadd.asm

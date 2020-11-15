@@ -1,0 +1,16 @@
+mov ax,0000h
+mov ds,ax
+mov bx,0004h
+mov ax,[bx]
+inc bx
+inc bx
+mov cx,[bx]
+inc bx
+inc bx
+add ax,cx
+mov [bx],ax
+hlt
+
+
+
+; [SOURCE]: C:\Users\Sadique\Desktop\1234.asm
